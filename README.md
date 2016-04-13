@@ -2,5 +2,5 @@
 
 ## Packages
 
-- apt
+- [puppetlabs/puppetlabs-apt](https://github.com/puppetlabs/puppetlabs-apt)
 - nginx
