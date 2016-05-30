@@ -12,7 +12,6 @@ class base (
     [
         'build-essential',
         'python-software-properties',
-        'zip',
         'git',
     ]:
     ensure  => $package_ensure,

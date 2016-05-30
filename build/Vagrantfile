@@ -1,0 +1,8 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "obihann/nginx"
+
+  config.vm.synced_folder "www", "/usr/share/nginx/www", create: true
+end
